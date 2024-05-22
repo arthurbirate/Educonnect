@@ -1,14 +1,37 @@
 
-<!doctype html>
+{% load static tailwind_tags %}
+{% load static %}
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}My Django Site{% endblock %}</title>
 
-<body class="">
+    {% tailwind_css %}
+</head>
+<body class="bg-gray-50 text-gray-900">
+
+  {% include 'nav.html' %}
+
+    <!-- Main content -->
+    <main class="py-6">
+        <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
+            <div class="  p-6">
+                {% block content %}
+                {% endblock %}
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class=" mt-6">
+        <div class="max-w-7xl mx-auto py-4 px-4 sm:px-6 lg:px-8">
+            <div class="text-center text-gray-500 text-sm">
+                &copy; 2024 EduConnect. All rights reserved.
+            </div>
+        </div>
+    </footer>
 
 
 </body>
