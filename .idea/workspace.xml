@@ -4,31 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db2f54fe-1ef5-4131-8131-6aa75c7fb3ab" name="Changes" comment="installation">
-      <change afterPath="$PROJECT_DIR$/Utilisateurs/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Utilisateurs/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Utilisateurs/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Utilisateurs/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Utilisateurs/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Utilisateurs/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Utilisateurs/templates/dashboard.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Utilisateurs/templates/dashboard_EduConnect.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Utilisateurs/templates/dashboard_eleve.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Utilisateurs/templates/dashboard_enseignent.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Utilisateurs/templates/dashboard_parent.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Utilisateurs/templates/enregistrer_ecole.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Utilisateurs/templates/login_register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Utilisateurs/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Utilisateurs/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Utilisateurs/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Educonnect/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Educonnect/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Educonnect/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Educonnect/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/nav.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/nav.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/static/css/dist/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/theme/static/css/dist/styles.css" afterDir="false" />
-    </list>
+    <list default="true" id="db2f54fe-1ef5-4131-8131-6aa75c7fb3ab" name="Changes" comment="installation" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -157,7 +133,7 @@
       <workItem from="1716122849036" duration="3266000" />
       <workItem from="1716126155904" duration="1213000" />
       <workItem from="1716127551056" duration="3146000" />
-      <workItem from="1716381594686" duration="3818000" />
+      <workItem from="1716381594686" duration="4147000" />
     </task>
     <task id="LOCAL-00001" summary="installation">
       <option name="closed" value="true" />
