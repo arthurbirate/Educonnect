@@ -42,6 +42,10 @@ INSTALLED_APPS = [
     'django_browser_reload',
     'theme',
     'Utilisateurs',
+    'Institution',
+    'Taches',
+    'Communications',
+    'Finances',
  
 
 ]
@@ -62,6 +66,8 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'Educonnect.urls'
+
+AUTH_USER_MODEL = 'Utilisateurs.User'
 
 TEMPLATES = [
     {
@@ -87,9 +93,18 @@ WSGI_APPLICATION = 'Educonnect.wsgi.application'
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
 DATABASES = {
+    # 'default': {
+    #     'ENGINE': 'django.db.backends.sqlite3',
+    #     'NAME': BASE_DIR / 'db.sqlite3',
+    # }
+
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'Educonnect',
+        'USER': 'postgres',
+        'PASSWORD': 'birate',
+        'HOST': '127.0.0.1',
+        'PORT': '5432',
     }
 }
 

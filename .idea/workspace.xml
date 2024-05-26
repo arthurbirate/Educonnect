@@ -5,29 +5,70 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db2f54fe-1ef5-4131-8131-6aa75c7fb3ab" name="Changes" comment="installation">
-      <change afterPath="$PROJECT_DIR$/Utilisateurs/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Utilisateurs/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Utilisateurs/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Utilisateurs/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Utilisateurs/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Utilisateurs/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Utilisateurs/templates/dashboard.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Utilisateurs/templates/dashboard_EduConnect.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Utilisateurs/templates/dashboard_eleve.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Utilisateurs/templates/dashboard_enseignent.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Utilisateurs/templates/dashboard_parent.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Utilisateurs/templates/enregistrer_ecole.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Utilisateurs/templates/login_register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Utilisateurs/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Utilisateurs/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Utilisateurs/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Communications/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Communications/migrations/0002_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Institution/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Institution/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Institution/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Institution/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Institution/migrations/0002_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Institution/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Institution/templates/creer_institution.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Institution/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Institution/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Taches/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Taches/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Taches/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Taches/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Taches/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Utilisateurs/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Utilisateurs/migrations/0002_table_eleve_institution.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/psycopg2/.dylibs/libcom_err.3.0.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/psycopg2/.dylibs/libcrypto.3.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/psycopg2/.dylibs/libgssapi_krb5.2.2.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/psycopg2/.dylibs/libintl.8.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/psycopg2/.dylibs/libk5crypto.3.1.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/psycopg2/.dylibs/libkrb5.3.3.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/psycopg2/.dylibs/libkrb5support.1.1.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/psycopg2/.dylibs/libpq.5.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/psycopg2/.dylibs/libssl.3.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/psycopg2/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/psycopg2/_ipaddress.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/psycopg2/_json.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/psycopg2/_psycopg.cpython-38-darwin.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/psycopg2/_range.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/psycopg2/errorcodes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/psycopg2/errors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/psycopg2/extensions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/psycopg2/extras.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/psycopg2/pool.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/psycopg2/sql.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/psycopg2/tz.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/psycopg2_binary-2.9.9.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/psycopg2_binary-2.9.9.dist-info/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/psycopg2_binary-2.9.9.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/psycopg2_binary-2.9.9.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/psycopg2_binary-2.9.9.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/psycopg2_binary-2.9.9.dist-info/top_level.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Institution/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Communications/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Communications/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Communications/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Communications/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Devoirs/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Institution/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Devoirs/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Devoirs/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/Taches/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Devoirs/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Taches/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Devoirs/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Devoirs/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/Institution/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Devoirs/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Taches/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Educonnect/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Educonnect/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Educonnect/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Educonnect/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Finances/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Finances/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Finances/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Finances/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Utilisateurs/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Utilisateurs/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Utilisateurs/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/Utilisateurs/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Utilisateurs/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Utilisateurs/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/nav.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/nav.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/static/css/dist/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/theme/static/css/dist/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,28 +125,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Notification.DisplayName-DoNotAsk-Vcs Important Messages": "VCS important messages",
-    "Notification.DoNotAsk-Vcs Important Messages": "true",
-    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/birate/Documents/Educonnect",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "project.propVCSSupport.CommitDialog",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Notification.DisplayName-DoNotAsk-Vcs Important Messages&quot;: &quot;VCS important messages&quot;,
+    &quot;Notification.DoNotAsk-Vcs Important Messages&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/birate/Documents/Educonnect&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.CommitDialog&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Educonnect" />
@@ -158,6 +199,11 @@
       <workItem from="1716126155904" duration="1213000" />
       <workItem from="1716127551056" duration="3146000" />
       <workItem from="1716381594686" duration="3818000" />
+      <workItem from="1716406981850" duration="3754000" />
+      <workItem from="1716552920884" duration="2192000" />
+      <workItem from="1716574563648" duration="10553000" />
+      <workItem from="1716665299424" duration="18743000" />
+      <workItem from="1716722496820" duration="2377000" />
     </task>
     <task id="LOCAL-00001" summary="installation">
       <option name="closed" value="true" />
