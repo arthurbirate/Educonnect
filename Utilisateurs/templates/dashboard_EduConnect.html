@@ -1,17 +1,14 @@
 
-{% extends 'main.html' %}
 
-{% load static tailwind_tags %}
-{% load static %}
+<h1> {{ institution }}</h1>
 
-{% block content %}
+{% for eleve in eleves %}
+<p>{{eleve}}</p>
 
-
-
-
+{% endfor %}
 <h1>Dashboard EduConnect</h1>
 
 
 
 
-{% endblock %}
+

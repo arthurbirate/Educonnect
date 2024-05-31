@@ -4,71 +4,37 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db2f54fe-1ef5-4131-8131-6aa75c7fb3ab" name="Changes" comment="installation">
-      <change afterPath="$PROJECT_DIR$/Communications/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Communications/migrations/0002_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Institution/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Institution/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Institution/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Institution/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Institution/migrations/0002_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Institution/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Institution/templates/creer_institution.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Institution/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Institution/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Taches/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Taches/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Taches/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Taches/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Taches/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Utilisateurs/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Utilisateurs/migrations/0002_table_eleve_institution.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/psycopg2/.dylibs/libcom_err.3.0.dylib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/psycopg2/.dylibs/libcrypto.3.dylib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/psycopg2/.dylibs/libgssapi_krb5.2.2.dylib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/psycopg2/.dylibs/libintl.8.dylib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/psycopg2/.dylibs/libk5crypto.3.1.dylib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/psycopg2/.dylibs/libkrb5.3.3.dylib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/psycopg2/.dylibs/libkrb5support.1.1.dylib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/psycopg2/.dylibs/libpq.5.dylib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/psycopg2/.dylibs/libssl.3.dylib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/psycopg2/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/psycopg2/_ipaddress.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/psycopg2/_json.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/psycopg2/_psycopg.cpython-38-darwin.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/psycopg2/_range.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/psycopg2/errorcodes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/psycopg2/errors.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/psycopg2/extensions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/psycopg2/extras.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/psycopg2/pool.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/psycopg2/sql.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/psycopg2/tz.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/psycopg2_binary-2.9.9.dist-info/INSTALLER" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/psycopg2_binary-2.9.9.dist-info/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/psycopg2_binary-2.9.9.dist-info/METADATA" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/psycopg2_binary-2.9.9.dist-info/RECORD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/psycopg2_binary-2.9.9.dist-info/WHEEL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/psycopg2_binary-2.9.9.dist-info/top_level.txt" afterDir="false" />
+    <list default="true" id="db2f54fe-1ef5-4131-8131-6aa75c7fb3ab" name="Changes" comment="plus d'installation creation des tables et postgresql">
+      <change afterPath="$PROJECT_DIR$/Evaluation/migrations/0002_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Evaluation/migrations/0003_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Institution/migrations/0003_alter_section_promotion.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Utilisateurs/templates/creer_eleve.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Educonnect.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Educonnect.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Institution/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Communications/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Communications/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Communications/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Communications/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Devoirs/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Institution/migrations/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Devoirs/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Devoirs/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/Taches/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Devoirs/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Taches/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Devoirs/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Devoirs/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/Institution/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Devoirs/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Taches/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Communications/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/Communications/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Communications/migrations/0002_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/Communications/migrations/0002_initial.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Educonnect/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Educonnect/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Educonnect/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Educonnect/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Finances/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Finances/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Finances/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Finances/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Utilisateurs/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Utilisateurs/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Institution/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/Institution/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Institution/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/Institution/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Institution/migrations/0002_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/Institution/migrations/0002_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Institution/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Institution/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Taches/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Evaluation/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Taches/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Evaluation/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Taches/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/Evaluation/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Taches/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/Evaluation/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Taches/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Evaluation/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Taches/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Evaluation/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Taches/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/Evaluation/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Taches/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Evaluation/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Utilisateurs/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/Utilisateurs/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Utilisateurs/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/Utilisateurs/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Utilisateurs/migrations/0002_table_eleve_institution.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Utilisateurs/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Utilisateurs/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Utilisateurs/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Utilisateurs/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Utilisateurs/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Utilisateurs/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/django/forms/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/django/forms/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,7 +148,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-5a2391486177-2887949eec09-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.13763.11" />
+        <option value="bundled-python-sdk-babbdf50b680-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.15989.155" />
       </set>
     </attachedChunks>
   </component>
@@ -203,7 +169,11 @@
       <workItem from="1716552920884" duration="2192000" />
       <workItem from="1716574563648" duration="10553000" />
       <workItem from="1716665299424" duration="18743000" />
-      <workItem from="1716722496820" duration="2377000" />
+      <workItem from="1716722496820" duration="8994000" />
+      <workItem from="1716880865909" duration="676000" />
+      <workItem from="1716943816591" duration="4598000" />
+      <workItem from="1716948601801" duration="148000" />
+      <workItem from="1716949100446" duration="1228000" />
     </task>
     <task id="LOCAL-00001" summary="installation">
       <option name="closed" value="true" />
@@ -213,7 +183,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715863819199</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="plus d'installation creation des tables et postgresql">
+      <option name="closed" value="true" />
+      <created>1716727640084</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1716727640084</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,6 +203,7 @@
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
     <MESSAGE value="installation" />
-    <option name="LAST_COMMIT_MESSAGE" value="installation" />
+    <MESSAGE value="plus d'installation creation des tables et postgresql" />
+    <option name="LAST_COMMIT_MESSAGE" value="plus d'installation creation des tables et postgresql" />
   </component>
 </project>
