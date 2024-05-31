@@ -5,36 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db2f54fe-1ef5-4131-8131-6aa75c7fb3ab" name="Changes" comment="plus d'installation creation des tables et postgresql">
-      <change afterPath="$PROJECT_DIR$/Evaluation/migrations/0002_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Evaluation/migrations/0003_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Institution/migrations/0003_alter_section_promotion.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Utilisateurs/templates/creer_eleve.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Educonnect.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Educonnect.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Communications/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/Communications/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Communications/migrations/0002_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/Communications/migrations/0002_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Educonnect/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Educonnect/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Institution/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/Institution/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Institution/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/Institution/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Institution/migrations/0002_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/Institution/migrations/0002_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Institution/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Institution/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Taches/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Evaluation/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Taches/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Evaluation/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Taches/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/Evaluation/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Taches/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/Evaluation/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Taches/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Evaluation/migrations/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Taches/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Evaluation/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Taches/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/Evaluation/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Taches/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Evaluation/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Utilisateurs/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/Utilisateurs/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Utilisateurs/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/Utilisateurs/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Utilisateurs/migrations/0002_table_eleve_institution.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Utilisateurs/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Utilisateurs/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Utilisateurs/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Utilisateurs/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Utilisateurs/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Utilisateurs/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/django/forms/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/django/forms/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,14 +41,12 @@
     &quot;assignee&quot;: &quot;arthurbirate&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">
-    <option name="selectedUrlAndAccountId">
-      <UrlAndAccount>
-        <option name="accountId" value="a3937a56-53a0-45bd-a40b-4053abd59317" />
-        <option name="url" value="https://github.com/arthurbirate/Educonnect.git" />
-      </UrlAndAccount>
-    </option>
-  </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/arthurbirate/Educonnect",
+    "accountId": "a3937a56-53a0-45bd-a40b-4053abd59317"
+  }
+}]]></component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -148,7 +118,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-babbdf50b680-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.15989.155" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PY-241.17011.127" />
+        <option value="bundled-python-sdk-48aec45f0201-7e9c3bbb6e34-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.17011.127" />
       </set>
     </attachedChunks>
   </component>
@@ -174,6 +145,7 @@
       <workItem from="1716943816591" duration="4598000" />
       <workItem from="1716948601801" duration="148000" />
       <workItem from="1716949100446" duration="1228000" />
+      <workItem from="1717183062516" duration="1152000" />
     </task>
     <task id="LOCAL-00001" summary="installation">
       <option name="closed" value="true" />
