@@ -18,12 +18,12 @@ class UserForm(ModelForm):
         fields = ['username', 'password', 'first_name', 'last_name']
 
 
-class CombinedForm(forms.Form):
-    username = forms.CharField(max_length=150)
-    password = forms.CharField(widget=forms.PasswordInput)
-    first_name = forms.CharField(max_length=200)
-    last_name = forms.CharField(max_length=200)
-    classe = forms.ModelChoiceField(queryset=Classe.objects.all(), required=False)
-    parent = forms.ModelChoiceField(queryset=Table_Parent.objects.all(), required=False)
-    address = forms.CharField(max_length=50)
-    telephone = forms.CharField(max_length=15, required=False)
+# class CombinedForm(forms.Form):
+#     username = forms.CharField(max_length=150)
+#     password = forms.CharField(widget=forms.PasswordInput)
+#     first_name = forms.CharField(max_length=200)
+#     last_name = forms.CharField(max_length=200)
+#     classe = forms.ModelChoiceField(queryset=Classe.objects.all(), required=False)
+#     parent = forms.ModelChoiceField(queryset=Table_Parent.objects.all(), required=False)
+#     address = forms.CharField(max_length=50)
+#     telephone = forms.CharField(max_length=15, required=False)

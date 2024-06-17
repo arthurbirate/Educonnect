@@ -14,6 +14,7 @@ from django_tenants.models import TenantMixin, DomainMixin
 class Institution(TenantMixin):
     id = models.UUIDField(primary_key=True, default=uuid.uuid4)
     name = models.CharField(max_length=200, unique=True, null=False, blank=False)
+
     # subdomain = models.CharField(max_length=200, unique=True, default=True, blank=True, null=True)
     promotion = models.ManyToManyField('Promotion', related_name="institutions", blank=True, null=True)
     section = models.ManyToManyField('Section', related_name="institutions", blank=True, null=True)

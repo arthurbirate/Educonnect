@@ -5,7 +5,7 @@ from django.contrib.auth.models import User
 from django.views.decorators.csrf import csrf_exempt
 from django.contrib.auth import login, authenticate, logout
 from django.contrib import messages
-from .forms import UserForm, EleveForm, CombinedForm
+from .forms import UserForm, EleveForm
 from .models import Table_Eleve
 from Institution.models import Institution
 
@@ -71,29 +71,59 @@ def index(request):
 #
 #
 def creer_eleve(request):
+    formulaire_eleve = EleveForm()
+    formulaire_utilisateur = UserForm()
     if request.method == 'POST':
-        form = CombinedForm(request.POST)
-        if form.is_valid():
-            # Create User
-            user = User.objects.create_user(
-                username=form.cleaned_data['username'],
-                password=form.cleaned_data['password'],
-                first_name=form.cleaned_data['first_name'],
-                last_name=form.cleaned_data['last_name']
-            )
+        formulaire_eleve = EleveForm(request.POST)
+        formulaire_utilisateur = UserForm(request.POST)
 
-            # Create Table_Eleve
-            Table_Eleve.objects.create(
-                user=user,
-                classe=form.cleaned_data['classe'],
-                parent=form.cleaned_data['parent'],
-                address=form.cleaned_data['address'],
-                telephone=form.cleaned_data['telephone'],
+        if formulaire_eleve.is_valid() and formulaire_utilisateur.is_valid():
 
-            )
+            utilisateur = formulaire_utilisateur.save()
+            eleve = formulaire_eleve.save(commit=False)
+
+            eleve.first_name = utilisateur.first_name
+            eleve.last_name = utilisateur.last_name
+
+            eleve.save()
+
+
+
+
+
+
+
+
+
+
+        # form = CombinedForm(request.POST)
+        # if form.is_valid():
+        #     # Create User
+        #     user = User.objects.create_user(
+        #         username=form.cleaned_data['username'],
+        #         password=form.cleaned_data['password'],
+        #         first_name=form.cleaned_data['first_name'],
+        #         last_name=form.cleaned_data['last_name']
+        #     )
+        #
+        #     # Create Table_Eleve
+        #     Table_Eleve.objects.create(
+        #         user=user,
+        #         first_name=User.objects.get(username=form.cleaned_data['first_name']),
+        #         last_name=User.objects.get(username=form.cleaned_data['last_name']),
+        #         classe=form.cleaned_data['classe'],
+        #         parent=form.cleaned_data['parent'],
+        #         address=form.cleaned_data['address'],
+        #         telephone=form.cleaned_data['telephone'],
+        #
+        #
+        #     )
 
 
     else:
-        form = CombinedForm()
+        formulaire_eleve = EleveForm()
+        formulaire_utilisateur = UserForm()
 
-    return render(request, 'Utilisateurs/templates/creer_eleve.html', {'form': form})
+    context  = {'formulaire_eleve': formulaire_eleve,'formulaire_utilisateur': formulaire_utilisateur}
+
+    return render(request, 'Utilisateurs/templates/creer_eleve.html', context)

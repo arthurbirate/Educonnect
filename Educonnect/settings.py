@@ -25,17 +25,17 @@ SECRET_KEY = 'django-insecure-qavq@1@$bnc^)!@ax&6v0g52(n=#e1hqcrg5=z%19)3%0vht#(
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['0.0.0.0','educonnect.com','concorde.educonnect.com']
+ALLOWED_HOSTS = ['0.0.0.0','educonnect.com','kabojja.educonnect.com','concorde.educonnect.com']
 
 # Application definition
 
 SHARED_APPS = [
-    'django.contrib.admin',
-    'django.contrib.auth',
+
+
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
-    'django.contrib.staticfiles',
+
     'django_tenants',
 
     'tailwind',
@@ -48,7 +48,7 @@ SHARED_APPS = [
 ]
 
 
-TENANT_APPS = [ "Communications","Evaluation","Finances","Utilisateurs"]
+TENANT_APPS = [ "Communications","Evaluation","Finances","Utilisateurs",    'django.contrib.staticfiles',    'django.contrib.admin',    'django.contrib.auth',]
 INSTALLED_APPS = SHARED_APPS + [app for app in TENANT_APPS if app not in SHARED_APPS]
 # INTERNAL_IPS = [
 #     "127.0.0.1",
@@ -106,7 +106,7 @@ DATABASES = {
 
     'default': {
         'ENGINE': 'django_tenants.postgresql_backend',
-        'NAME': 'Educonnect_Database2',
+        'NAME': 'Educonnect_Database',
         'USER': 'postgres',
         'PASSWORD': 'birate',
         'HOST': 'localhost',

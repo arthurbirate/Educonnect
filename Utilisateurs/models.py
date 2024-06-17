@@ -35,6 +35,9 @@ class Table_Eleve(models.Model):
     user = models.OneToOneField(User, on_delete=models.CASCADE, related_name='eleve', default=None,
                                 null=True)
 
+
+    first_name = models.CharField(max_length=200, null=True, blank=True,default=None)
+    last_name = models.CharField(max_length=200, null=True, blank=True,default=None)
     institution = models.ForeignKey(Institution, on_delete=models.CASCADE, default=None, null=True,
                                     related_name='eleves')
     classe = models.ForeignKey(Classe, on_delete=models.CASCADE, default=None, null=True, blank=True)
