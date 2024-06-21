@@ -9,7 +9,32 @@
 
 
 
-<h1>Login</h1>
+<h1>Login/Register</h1>
+
+
+                <div class="border shadow-md rounded-md ">
+                    <h1 class="text-3xl font-bold text-blue-800 mb-2 flex justify-center ">Login</h1>
+
+                    <form action="" method="POST" class=" flex justify-center">
+                        {% csrf_token %}
+                        <div class="w-1/2 text-center">
+                            <input type="text" name="username" placeholder="username" autocomplete="off"
+                                   class="shadow-md border w-full h-10 px-3 py-2 text-orange-500 focus:outline-none focus:border-orange-500 mb-3 rounded">
+                            <input type="password" name="password" placeholder="password" autocomplete="off"
+                                   class="shadow-md border w-full h-10 px-3 py-2 text-orange-500 focus:outline-none focus:border-orange-500 mb-3 rounded">
+                            <button type="submit"
+                                    class="bg-blue-800 hover:bg-orange-600 text-white px-3 py-1 rounded text-lg focus:outline-none shadow">
+                                Sign in
+                            </button>
+
+{#                            <p class="">Don't have an account?<a href="{% url 'Users:register_user' %}"#}
+{#                                                                 class="text-orange-500">Sign up</a></p>#}
+                        </div>
+
+
+                    </form>
+                </div>
+
 
 
 {% endblock %}

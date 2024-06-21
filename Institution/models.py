@@ -4,8 +4,7 @@ from django.contrib.auth.models import User
 from django.db import models
 from django_tenants.models import TenantMixin, DomainMixin
 
-
-# from Utilisateurs.models import User
+# from Evaluation.models import Cour
 
 
 # Create your models here.
@@ -14,10 +13,7 @@ from django_tenants.models import TenantMixin, DomainMixin
 class Institution(TenantMixin):
     id = models.UUIDField(primary_key=True, default=uuid.uuid4)
     name = models.CharField(max_length=200, unique=True, null=False, blank=False)
-
-    # subdomain = models.CharField(max_length=200, unique=True, default=True, blank=True, null=True)
-    promotion = models.ManyToManyField('Promotion', related_name="institutions", blank=True, null=True)
-    section = models.ManyToManyField('Section', related_name="institutions", blank=True, null=True)
+    promotion = models.ManyToManyField('Promotion', blank=True, null=True, default=None, related_name='institutions')
     contact_number = models.CharField(max_length=200, unique=True, null=False, blank=False)
     address = models.CharField(max_length=200, unique=True, null=False, blank=False)
     created_at = models.DateTimeField(auto_now_add=True)
@@ -45,6 +41,7 @@ class Section(models.Model):
     id = models.UUIDField(primary_key=True, default=uuid.uuid4)
     promotion = models.ForeignKey(Promotion, related_name="sections", on_delete=models.CASCADE, null=False, blank=False,
                                   default=None)
+    # cours = models.ManyToManyField("Evaluation.Cour", blank=True, null=True, default=None, related_name='sections')
     name = models.CharField(max_length=200, unique=True, null=False, blank=False)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)

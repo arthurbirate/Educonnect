@@ -20,7 +20,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-qavq@1@$bnc^)!@ax&6v0g52(n=#e1hqcrg5=z%19)3%0vht#('
+SECRET_KEY = 'django-insecure-st4-6j_g$4t0le#4o1kz%-vwnr=bn@!$c2#8zky5a@$1z%n__!'
+
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -48,7 +49,7 @@ SHARED_APPS = [
 ]
 
 
-TENANT_APPS = [ "Communications","Evaluation","Finances","Utilisateurs",    'django.contrib.staticfiles',    'django.contrib.admin',    'django.contrib.auth',]
+TENANT_APPS = [ "Communications","Evaluation","Finances","Utilisateurs", "Presences",   'django.contrib.staticfiles', 'django.contrib.admin',    'django.contrib.auth',]
 INSTALLED_APPS = SHARED_APPS + [app for app in TENANT_APPS if app not in SHARED_APPS]
 # INTERNAL_IPS = [
 #     "127.0.0.1",
@@ -106,7 +107,7 @@ DATABASES = {
 
     'default': {
         'ENGINE': 'django_tenants.postgresql_backend',
-        'NAME': 'Educonnect_Database',
+        'NAME': 'Educonnect',
         'USER': 'postgres',
         'PASSWORD': 'birate',
         'HOST': 'localhost',
