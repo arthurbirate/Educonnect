@@ -1,0 +1,18 @@
+{% extends 'main.html' %}
+
+{% load static tailwind_tags %}
+{% load static %}
+
+{% block content %}
+
+
+<form action="" method="post">
+{% csrf_token %}
+    {{ formulaire_utilisateur }}
+    {{ formulaire_professeur }}
+
+    <input type="submit" value="submit">
+</form>
+
+{% endblock %}
+
